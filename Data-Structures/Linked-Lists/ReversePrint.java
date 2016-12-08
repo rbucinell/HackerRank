@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class ReversePrint
 {
 	//https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse
@@ -23,15 +25,13 @@ public class ReversePrint
 		while( pointer != null )
 		{
 			stack.push( pointer.data );
-			pointer.next = pointer;
+			pointer = pointer.next;
 			
 		}
-
-		for( int i = 0; i < stack.size();i++ )
+        while( !stack.isEmpty() )
 		{
 			System.out.println( stack.pop() );
 		}
-
 	}
 
 }
