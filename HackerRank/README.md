@@ -9,6 +9,6 @@ Just as a overview of this repository progress the following will state the comp
 
 ### Data Structures
 * Arrays = (6/6) 100%
-* Linked-Lists = (8/15) 53%
+* Linked-Lists = (15/15) 100%
 * Trees = (4/13) 31%
   + TODO: Upload code for trees
