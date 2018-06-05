@@ -11,10 +11,16 @@ Follow-up: what if you can't use division?
 */
 
 let input = [1,2,3,4,5];
-let product = input.reduce( ( acc, cur ) => acc * cur );
-let output = [];
-for( let i = 0; i < input.length; i++ )
+input = [3,2,1]
+console.log( multer( input ) );
+
+function multer( arr )
 {
-    output.push( product / input[i] );
+    let product = input.reduce( ( acc, cur ) => acc * cur );
+    let output = [];
+    for( let i = 0; i < input.length; i++ )
+    {
+        output.push( product / input[i] );
+    }
+    return output;
 }
-console.log( output );
