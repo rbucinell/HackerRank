@@ -13,3 +13,25 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right')) 
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 */
+
+class Node
+{
+    constructor (val, left, right)
+    {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+var serialize = function( node )
+{
+    return JSON.stringify( node );
+}
+
+var deserialize = function( serialized )
+{
+    return JSON.parse( serialized );
+}
+let node = new Node( 'root', new Node( 'left', new Node('left.left')), new Node('right'));
+console.assert( deserialize(serialize(node)).left.left.val === 'left.left' );
