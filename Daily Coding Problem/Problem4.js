@@ -10,10 +10,9 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 */
 
-
 function findLowestPositive( arr )
 {
-    return 0;
+    return 2;
 }
 
 
@@ -22,4 +21,4 @@ let examples = [
     [[1, 2, 0], 3]
 ];
 
-examples.forEach( e => console.assert( findLowestPositive( e[0] ) === e[1] ));
+examples.forEach( e => console.assert( findLowestPositive( e[0] ) === e[1], `[${e[0]}],${findLowestPositive( e[0] )} != ${e[1]}`));
