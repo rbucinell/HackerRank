@@ -11,9 +11,9 @@ You can modify the input array in-place.
 */
 
 
-function findLowestPositive()
+function findLowestPositive( arr )
 {
-
+    return 0;
 }
 
 
