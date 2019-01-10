@@ -4,10 +4,11 @@ Code repository for the various sites I practice on. I have a plethora of sites 
 ## Sites I'm using
 
 ### Hacker Rank ( [https://www.hackerrank.com/](www.hackerrank.com) )
-* [HackerRank/](/HackerRank/)
+* [Goto HackerRank Code](/HackerRank/)
 ### Reddit Daily Programmer ( [r/dailyprogrammer](www.reddit.com/r/dailyprogrammer) )
-* [Reddit-DailyProgrammer/](/Reddit-DailyProgrammer/)
-
+* [Goto Reddit-DailyProgrammer Code](/Reddit-DailyProgrammer/)
+### Project Euler ( [https://projecteuler.net/](https://projecteuler.net/) )
+* [Goto Project Euler Code/](/ProjectEuler/)
 
 ## Sites I'm also like ( no code up yet )
 * [Leet Code](https://leetcode.com/)
