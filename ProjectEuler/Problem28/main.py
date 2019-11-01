@@ -52,5 +52,5 @@ def sumOfDiagonals( grid, w, h ):
 w = h = 1001
 grid = buildSpiral(w,h)
 gridSum = sumOfDiagonals( grid, w, h )
-print(grid)
+#print(grid)
 print( gridSum )
